@@ -155,7 +155,7 @@ $Label6.location = New-Object System.Drawing.Point(20, 430)
 $Label6.Font = New-Object System.Drawing.Font('Tahoma', 8, [System.Drawing.FontStyle]([System.Drawing.FontStyle]::Normal))
 
 $Label7 = New-Object System.Windows.Forms.LinkLabel
-$Label7.text = "QTeknoloji Bilisim Sistemleri"
+$Label7.text = "Mustafa Celebi"
 
 $Label7.AutoSize = $true
 $Label7.width = 25
@@ -164,7 +164,7 @@ $Label7.location = New-Object System.Drawing.Point(20, 450)
 $Label7.Font = New-Object System.Drawing.Font('Tahoma', 8, [System.Drawing.FontStyle]([System.Drawing.FontStyle]::Normal))
 
 $Label7.Add_Click( {
-        Start-Process "https://qt.net.tr"
+        Start-Process "https://mcelebi.net"
     })
 
 $chkDebloatApps = New-Object System.Windows.Forms.CheckBox
